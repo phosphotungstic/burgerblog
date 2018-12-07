@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/nick', 'NicksController@index');
+Route::get('/nick/{name?}', 'NicksController@index');
 

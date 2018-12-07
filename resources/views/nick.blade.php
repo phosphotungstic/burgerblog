@@ -6,6 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+        <link rel="stylesheet" href="/css/nick.css">
 
         <title>Pat's Burger Blog</title>
 
@@ -14,7 +15,13 @@
     </head>
     <body>
       <div id="app">
-        Hello, Nick!
+
+        <div class="container">
+            <div class="name-box center">
+                hello, {{$name}}!
+            </div>
+        </div>
+
       </div>
       <script src="{{ mix('/js/app.js') }}"></script>
     </body>

@@ -1,0 +1,29 @@
+body {
+    background-image: url('https://www.basecine.net/wp-content/uploads/2018/07/13.jpg');
+    background-size: cover;
+    /* text-align: center; */
+    /* position: relative; */
+}
+
+
+
+.container { 
+    height: 100vh;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.name-box {
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+}

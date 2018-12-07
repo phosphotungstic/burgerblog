@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class NicksController extends Controller
 {
-    public function index() {
-        return view('nick');
+    public function index($name = 'Nick') {
+        return view('nick', ["name" => $name]);
     }
 }
